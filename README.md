@@ -22,7 +22,7 @@ The Proxmox-Private-Network guide provides a comprehensive step-by-step tutorial
 ![Screenshot 2024-07-01 at 10 42 00](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/f901fd47-7fb5-4d7a-b9fa-0d309f4806b5)
 
 ### 3. SSH into Proxmox Host
-- Use SSH or the Shell option on the Proxmox panel to connect to the Proxmox host.
+- Use SSH or the "Shell" option on the Proxmox panel to connect to the Proxmox host.
  
 ### 4. Update Network Interfaces
 - Add the following code to ```/etc/network/interfaces``` (adjust network name and IPs as needed):
