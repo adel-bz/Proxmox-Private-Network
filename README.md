@@ -19,7 +19,8 @@ The Proxmox-Private-Network guide provides a comprehensive step-by-step tutorial
 
 - Click "Apply Configuration"
 
-![Screenshot 2024-07-01 at 10 42 00](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/f901fd47-7fb5-4d7a-b9fa-0d309f4806b5)
+![Screenshot 2024-07-01 at 10 42 00](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/26af5bf1-dc10-4ef5-90ec-63832f328d06)
+
 
 ### 3. SSH into Proxmox Host
 - Use SSH or the "Shell" option on the Proxmox panel to connect to the Proxmox host.
@@ -42,7 +43,8 @@ post-up iptables -t nat -A POSTROUTING -s '192.168.1.0/24' -o enp6s0 -j MASQUERA
 post-down iptables -t nat -D POSTROUTING -s '192.168.1.0/24' -o enp6s0 -j MASQUERADE
 ```
 
-![Screenshot 2024-07-01 at 10 58 17](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/3d251262-94a6-445d-b286-3af7bc738ba9)
+![Screenshot 2024-07-01 at 10 58 17](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/86c269d1-e237-4688-91f3-70c3f9487a09)
+
 
 #### 5. Restart Network:
 ```
@@ -59,7 +61,8 @@ post-down iptables -t nat -D POSTROUTING -s '192.168.1.0/24' -o enp6s0 -j MASQUE
 
 - Edit the IP Config option with your specific IP.
 
-![Screenshot 2024-07-01 at 11 13 23](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/9dc5f031-bbac-4c74-a4ff-3995b56ebb86)
+![Screenshot 2024-07-01 at 11 13 23](https://github.com/adel-bz/Proxmox-Private-Network/assets/45201934/23b2d626-8e9b-4c70-a45f-f060b9e85b4b)
+
 
 #### 8. Start VM and Verify Connection
 - Start your machine
