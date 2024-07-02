@@ -2,7 +2,7 @@
 
 # Introduction
 
-The Proxmox-Private-Network guide provides a comprehensive step-by-step tutorial for setting up a private network within a Proxmox environment. This process involves configuring a virtual network bridge, modifying network settings through SSH or the Proxmox shell, and ensuring proper NAT settings for network address translation. By following this guide, users can effectively establish a private network to manage VMs with isolated network environments.
+The Proxmox-Private-Network guide provides a comprehensive step-by-step tutorial for setting up a private network within a Proxmox environment. This process involves configuring a virtual network bridge, modifying network settings through SSH or the Proxmox shell, and ensuring proper NAT settings for network address translation. By following this guide, users can effectively establish a private network to manage VMs with isolated network environments. This can be useful when creating Highly Available Kubernetes clusters that need at least 6 Servers (3 Master and 3 Workers).
 
 # Instruction
 #### 1. Create a VM (if it doesn't exist).
