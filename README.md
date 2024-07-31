@@ -73,6 +73,6 @@ post-down iptables -t nat -D POSTROUTING -s '192.168.1.0/24' -o enp6s0 -j MASQUE
 # Ping 4.2.2.4 
 ```
 
-For a visual reference, watch this example video (note: it may not follow these exact steps).
+For a visual reference, you can watch this example video on [YouTube](https://youtu.be/gmAMq52Q-94) (see: it may not follow these exact steps).
 
 
